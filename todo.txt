@@ -1,0 +1,9 @@
+todo
+1. Kolorowa animacja obok logo, wąski pasek wyjeżdzający w lewą stronę
+2. Podstrony:
+    a) galeria
+    b) info
+    c) kontakt
+3. Obrazy sprzedawane na allegro, plus poszukać grupy ze sprzedażą
+4. Info na wikipedia
+5. Przygotowanie tekstu promo do wysylki
