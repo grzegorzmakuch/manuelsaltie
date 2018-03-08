@@ -34,7 +34,7 @@ body {
     position: relative;
 }
 
-.mainBar-anchor {
+.mainBar-logo {
     text-decoration: none;
     font-size: 48px;
     line-height: 48px;
@@ -42,38 +42,22 @@ body {
     transition: opacity .5s;
 }
 
-.mainBar-bold {
+.mainBar-logo-bold {
     font-weight: 700;
     color: #707070;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
-.mainBar-anchor:nth-child(2) {
-    position: absolute;
-    right: 0;
-    top: 0;
-    opacity: 0;
-}
-
-.mainBar:hover .mainBar-anchor:nth-child(2) {
-    opacity: 1;
-}
-
-.mainBar:hover .mainBar-anchor {
-    opacity: 0;
-}
-
 /*MENU*/
 
 .mainMenu {
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    /*border: 1px solid orangered;*/
     min-height: 50px;
+    display: none;
 }
 
 .mainMenu-item {
-    /*border: 1px solid blue;*/
     display: inline-block;
     padding: 0 16px;
 }
